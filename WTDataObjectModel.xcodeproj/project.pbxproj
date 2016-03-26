@@ -13,6 +13,8 @@
 		506ABF271CA6C0E400F25672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506ABF251CA6C0E400F25672 /* Main.storyboard */; };
 		506ABF291CA6C0E400F25672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506ABF281CA6C0E400F25672 /* Assets.xcassets */; };
 		506ABF2C1CA6C0E400F25672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506ABF2A1CA6C0E400F25672 /* LaunchScreen.storyboard */; };
+		506ABF351CA6C12100F25672 /* SWQJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABF341CA6C12100F25672 /* SWQJsonModel.m */; };
+		506ABF381CA6CA5900F25672 /* SWQDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABF371CA6CA5900F25672 /* SWQDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		506ABF281CA6C0E400F25672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506ABF2B1CA6C0E400F25672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506ABF2D1CA6C0E400F25672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506ABF331CA6C12100F25672 /* SWQJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWQJsonModel.h; sourceTree = "<group>"; };
+		506ABF341CA6C12100F25672 /* SWQJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWQJsonModel.m; sourceTree = "<group>"; };
+		506ABF361CA6CA5900F25672 /* SWQDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWQDataModel.h; sourceTree = "<group>"; };
+		506ABF371CA6CA5900F25672 /* SWQDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWQDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				506ABF201CA6C0E400F25672 /* AppDelegate.m */,
 				506ABF221CA6C0E400F25672 /* ViewController.h */,
 				506ABF231CA6C0E400F25672 /* ViewController.m */,
+				506ABF331CA6C12100F25672 /* SWQJsonModel.h */,
+				506ABF341CA6C12100F25672 /* SWQJsonModel.m */,
+				506ABF361CA6CA5900F25672 /* SWQDataModel.h */,
+				506ABF371CA6CA5900F25672 /* SWQDataModel.m */,
 				506ABF251CA6C0E400F25672 /* Main.storyboard */,
 				506ABF281CA6C0E400F25672 /* Assets.xcassets */,
 				506ABF2A1CA6C0E400F25672 /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				506ABF241CA6C0E400F25672 /* ViewController.m in Sources */,
+				506ABF381CA6CA5900F25672 /* SWQDataModel.m in Sources */,
 				506ABF211CA6C0E400F25672 /* AppDelegate.m in Sources */,
 				506ABF1E1CA6C0E400F25672 /* main.m in Sources */,
+				506ABF351CA6C12100F25672 /* SWQJsonModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
